@@ -2,11 +2,11 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/w01000001ssim/DevOps_Microservices/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/w01000001ssim/DevOps_Microservices/tree/main)
 
-## A summary of the project
+## 1- A summary of the project
 
 This project involved the deployment of a pre-trained scikit-learn ML model as a Python Flask Microservice API. Code quality was validated via linting, containerization was achieved through Docker, and deployment was managed through Docker and Kubernetes. Model predictions were made and the code was improved with enhanced logging. The entire project was version-controlled in a Github repository with CircleCI integration to verify successful build and test execution.
 
-## Instructions on how to run the Python scripts and web app
+## 2- Instructions on how to run the Python scripts and web app
 
 ### Setup the Environment
 
@@ -29,7 +29,7 @@ This project involved the deployment of a pre-trained scikit-learn ML model as a
 
 * Run `./make_prediction.sh` to make a prediction
 
-## Files in the repository
+## 3- Files in the repository
 
 * `app.py`: A Flask application that provides housing price predictions through API calls.
 * `Dockerfile`: Dockerfile to build the image
