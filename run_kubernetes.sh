@@ -9,7 +9,6 @@ dockerpath=w01000001ssim/ml-microservice
 # Run the Docker Hub container with kubernetes
 
 kubectl run ml-microservice\
-    --generator=run-pod/v1\
     --image=$dockerpath\
     --port=80 --labels app=ml-microservice
 
