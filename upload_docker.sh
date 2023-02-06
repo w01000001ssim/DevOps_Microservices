@@ -11,7 +11,7 @@ dockerpath=w01000001ssim/ml-microservice
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login --username=w01000001ssim --password=3tWLjUqkagbeark
+docker login --username=w01000001ssim --password=********
 docker tag ml-microservice $dockerpath
 
 # Step 3:
