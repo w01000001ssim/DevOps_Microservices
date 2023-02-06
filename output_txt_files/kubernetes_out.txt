@@ -8,3 +8,19 @@ ml-microservice   1/1     Running   0          10m
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+
+voclabs:~/environment/DevOps_Microservices (main) $ chmod +x make_prediction.sh
+voclabs:~/environment/DevOps_Microservices (main) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+voclabs:~/environment/DevOps_Microservices (main) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
